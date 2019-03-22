@@ -17,7 +17,7 @@
  */
 
 public class Solution04 {
-    public StringBuffer replaceSpace(StringBuffer sb) {
+    public static StringBuffer replaceSpace(StringBuffer sb) {
         int spaceNum = 0;
         //计算空格的数量
         for (int i = 0; i < sb.length(); i++) {

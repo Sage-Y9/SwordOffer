@@ -8,7 +8,7 @@ public class Solution03 {
      * 判断数组中是否含有这个整数。
      */
 
-    public boolean findNumber(int[][] arr, int num) {
+    public static boolean findNumber(int[][] arr, int num) {
         int row = 0;
         int col = arr[0].length - 1;
         while (row <= arr.length - 1 && col >= 0) {
