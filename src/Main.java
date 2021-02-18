@@ -35,6 +35,12 @@ public class Main {
         Solution05.printListReverselyByStack(listNode1);
         Solution05.printListReverselyByRecursive(listNode1);
 
+        Solution07.appendTail(1);
+        Solution07.appendTail(2);
+        Solution07.appendTail(3);
+        System.out.println(Solution07.deleteTail());
+        System.out.println(Solution07.deleteTail());
+
     }
 
 
