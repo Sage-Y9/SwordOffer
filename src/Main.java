@@ -41,6 +41,14 @@ public class Main {
         System.out.println(Solution07.deleteTail());
         System.out.println(Solution07.deleteTail());
 
+//        int[] nums = null;
+//        int[] nums = {};
+//        int[] nums = {1};
+//        int[] nums = {1, 2, 3, 4, 5, 6};
+//        int[] nums = {3, 4, 5, 1, 2};
+        int[] nums = {1, 1, 0, 0, 1, 1, 1};
+        System.out.println(Solution08.min(nums));
+
     }
 
 
