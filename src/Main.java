@@ -49,6 +49,9 @@ public class Main {
         int[] nums = {1, 1, 0, 0, 1, 1, 1};
         System.out.println(Solution08.min(nums));
 
+        System.out.println(Solution09.recursionCountJumpMethods(100));
+        System.out.println(Solution09.recurrenceCountJumpMethods(100));
+
     }
 
 
